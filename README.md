@@ -9,8 +9,9 @@
 2、之前猜的密码如果只要微调的话，就不用重新输入了，复制黏贴再改就好。
 
 ```void((function(){
-psw = "猜的密码";
-document.getElementById("pwbox-密码框的编号，可以在控制台html源码里面找到").value = psw;  
+ void((function(){
+  psw = "猜的密码";
+  document.getElementById("pwbox-密码框的编号，可以在控制台html源码里面找到").value = psw;  
 })())
 ```
 
